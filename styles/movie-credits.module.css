@@ -1,0 +1,39 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 40px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.creditBox {
+  text-align: center;
+}
+
+.creditBox img {
+  border-radius: 20px;
+  aspect-ratio: auto 100/150;
+}
+
+.imgFallback {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 100%;
+  margin: auto;
+  aspect-ratio: auto 100/150;
+  background-color: rgb(88, 88, 88);
+}
+
+.actorName {
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+.cName {
+  padding-top: 5px;
+  font-size: 13px;
+  color: rgb(133, 133, 133);
+}
